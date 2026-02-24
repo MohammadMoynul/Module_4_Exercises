@@ -1,4 +1,5 @@
 # Module_4_Exercises
+Exercises# 1
 """
 number = 3
 
@@ -7,6 +8,7 @@ while number <= 1000:
         print(number)
     number += 3
 """
+Exercises# 2
 import random
 from mimetypes import guess_type
 
@@ -20,7 +22,7 @@ while True:
     centimeters = inches * Inch_to_CM
     print(f"{inches} inches = {centimeters:.2f} cm")
 """
-"""
+Exercises# 3
 Numbers = []
 while True:
     s =input("Enter a number (Empty To Quit): ").strip()
@@ -33,7 +35,7 @@ else:
     print("Smallest.", min(Numbers))
     print(" Largest:", max(Numbers))
 """
-"""
+Exercises# 4
 import random
 Hide = random.randint(1,10)
 while True :
@@ -46,6 +48,7 @@ while True :
         print("Correct")
         break
 """
+Exercises# 5
 Right_username = ("python")
 Right_password = ("rules")
 attempts = 0
